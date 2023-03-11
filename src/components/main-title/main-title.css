@@ -1,0 +1,30 @@
+.main-title {
+  color: white;
+  width: fit-content;
+  padding: 20px 0;
+  text-align: center;
+  margin: 0 auto 70px;
+  position: relative;
+  font-size: 20px;
+}
+
+@media (max-width: 575px) {
+  .main-title {
+    font-size: 18px;
+  }
+}
+
+.main-title::after {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 3px;
+  background-color: var(--main-color);
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
