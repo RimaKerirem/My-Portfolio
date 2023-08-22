@@ -1,5 +1,5 @@
+import { SidebarList } from "../modules";
 import "./sidebar.css";
-import ListSidebar from "../sidebar-list/SidebarList";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 function Sidebar({ openMenu, setOpenMenu, selected }) {
@@ -18,7 +18,7 @@ function Sidebar({ openMenu, setOpenMenu, selected }) {
       <p className="name">Rima KERIREM</p>
       <ul className="nav-items">
         {list.map((li) => (
-          <ListSidebar
+          <SidebarList
             key={li.id}
             id={li.id}
             title={li.title}

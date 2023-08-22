@@ -1,5 +1,12 @@
 export const projectsData = [
   {
+    id: "p-7",
+    image: "/images/project-7.png",
+    title: "Zay Shop",
+    demo: "https://zay-shop-ecommerce.netlify.app/",
+    code: "https://github.com/RimaKerirem/Zay-Shop",
+  },
+  {
     id: "p-6",
     image: "/images/project-6.png",
     title: "Easybank landing page",
@@ -14,7 +21,7 @@ export const projectsData = [
     code: "https://github.com/RimaKerirem/Intro-Section-With-Dropdown-Navigation",
   },
   {
-    id: "p-5",
+    id: "p-4",
     image: "/images/project-4.png",
     title: "Login form",
     demo: "https://rimakerirem.github.io/Login-Form/",
