@@ -2,7 +2,7 @@ export const projectsData = [
   {
     id: "p-7",
     image: "/images/project-7.png",
-    title: "Zay Shop",
+    title: "Zay Shop eCommerce",
     demo: "https://zay-shop-ecommerce.netlify.app/",
     code: "https://github.com/RimaKerirem/Zay-Shop",
   },
