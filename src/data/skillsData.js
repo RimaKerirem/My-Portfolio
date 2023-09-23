@@ -2,7 +2,7 @@ export const skillsData = [
   {
     id: 1,
     title: "Web Technologies",
-    skills: ["HTML", "CSS", "Javascript", "React"],
+    skills: ["HTML", "CSS", "Javascript", "React", "Redux"],
   },
   {
     id: 2,

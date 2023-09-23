@@ -12,10 +12,7 @@ function Sidebar({ openMenu, setOpenMenu, selected }) {
 
   return (
     <div className={`sidebar ${openMenu && "active"}`}>
-      <div className="image">
-        <img src="/images/my-photo.jpg" alt="" />
-      </div>
-      <p className="name">Rima KERIREM</p>
+      <h1 className="name">Rima KERIREM</h1>
       <ul className="nav-items">
         {list.map((li) => (
           <SidebarList

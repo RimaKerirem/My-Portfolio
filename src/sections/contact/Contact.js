@@ -38,14 +38,34 @@ function Contact({ props }, ref) {
     <section ref={ref} className="contact" id="contact">
       <MainTitle title="Contact Me" />
       <form ref={formRef} onSubmit={handleSubmit}>
-        <label>Full Name</label>
-        <input ref={nameRef} type="text" name="user_name" required />
+        <label htmlFor="full-name">Full Name</label>
+        <input
+          ref={nameRef}
+          type="text"
+          name="user_name"
+          id="full-name"
+          autoComplete="off"
+          required
+        />
 
-        <label>Email</label>
-        <input ref={emailRef} type="email" name="user_email" required />
+        <label htmlFor="email">Email</label>
+        <input
+          ref={emailRef}
+          type="email"
+          name="user_email"
+          id="email"
+          autoComplete="off"
+          required
+        />
 
-        <label>Message</label>
-        <textarea ref={msgRef} name="message" required></textarea>
+        <label htmlFor="message">Message</label>
+        <textarea
+          ref={msgRef}
+          name="message"
+          id="message"
+          autoComplete="off"
+          required
+        ></textarea>
 
         <button type="submit">Send</button>
       </form>

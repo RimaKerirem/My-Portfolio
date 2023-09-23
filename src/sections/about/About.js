@@ -9,7 +9,7 @@ function About({ props }, ref) {
       <MainTitle title="About Me" />
       <p className="text">
         I graduated with a master's degree in Mathematics and Business
-        Intelligence, with no experience. Interested in web development.
+        Intelligence. Interested in web development.
       </p>
       <div className="diplomes">
         <h2>Diplomas</h2>
