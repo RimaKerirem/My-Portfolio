@@ -60,12 +60,11 @@
 
 @media (max-width: 991px) {
   .sidebar {
-    left: 0;
-    top: -100%;
+    left: -150%;
   }
 
   .sidebar.active {
-    top: 0;
+    left: 0;
   }
 }
 

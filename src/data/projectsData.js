@@ -23,7 +23,7 @@ export const projectsData = [
   {
     id: "p-2",
     image: "/images/project-2.png",
-    title: "To Do App",
+    title: "Todo App",
     demo: "https://app-todo-2.netlify.app/",
     code: "https://github.com/RimaKerirem/Todo-App",
   },
