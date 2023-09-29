@@ -1,5 +1,5 @@
 .card {
-  background-color: rgb(250 250 250 / 0.8);
+  background-color: rgb(250 250 250 / 0.2);
   margin: 20px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -11,9 +11,6 @@
   -moz-transition: 0.8s;
   -ms-transition: 0.8s;
   -o-transition: 0.8s;
-}
-
-.card .card-image {
   padding: 10px;
 }
 
@@ -30,18 +27,22 @@
 }
 
 .card .card-content {
-  padding: 20px;
+  color: white;
 }
 
-.card .card-content .card-title {
-  font-size: 17px;
-  color: var(--main-color);
-  margin-bottom: 30px;
+.card .card-content .title {
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.card .card-content .languages {
+  font-weight: 300;
 }
 
 .card .card-content .buttons {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 20px;
 }
 
 .card .card-content .buttons a {
@@ -57,31 +58,23 @@
   -moz-transition: 0.8s;
   -ms-transition: 0.8s;
   -o-transition: 0.8s;
-}
-
-.card .card-content .buttons .demo {
-  color: var(--main-color);
-}
-
-.card .card-content .buttons .demo:hover {
-  color: white;
-  background-color: var(--main-color);
-  border-color: var(--main-color);
-}
-
-.card .card-content .buttons .code {
   background-color: var(--main-color);
   color: white;
 }
 
-.card .card-content .buttons .code:hover {
+.card .card-content .buttons a:hover {
   background-color: inherit;
-  color: var(--main-color);
+  color: white;
+  border-color: white;
 }
 
 @media (max-width: 991px) {
-  .card .card-content .card-title,
+  .card .card-content .title,
   .card .card-content .buttons a {
     font-size: 15px;
+  }
+
+  .card .card-content .languages {
+    font-size: 13px;
   }
 }

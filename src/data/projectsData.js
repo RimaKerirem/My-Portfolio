@@ -1,10 +1,19 @@
 export const projectsData = [
   {
+    id: "p-7",
+    image: "/images/project-7.png",
+    title: "Montres Boutique",
+    demo: "https://montres-boutique.netlify.app/",
+    code: "https://github.com/RimaKerirem/Montres-Boutique",
+    languages: "React / Redux / Redux Toolkit",
+  },
+  {
     id: "p-6",
     image: "/images/project-6.png",
     title: "Zay Shop",
     demo: "https://zay-shop-ecommerce.netlify.app/",
     code: "https://github.com/RimaKerirem/Zay-Shop",
+    languages: "React",
   },
   {
     id: "p-5",
@@ -12,6 +21,7 @@ export const projectsData = [
     title: "Easybank landing page",
     demo: "https://easybank-landing-page123.netlify.app/",
     code: "https://github.com/RimaKerirem/Easybank-Landing-Page",
+    languages: "React",
   },
   {
     id: "p-4",
@@ -19,6 +29,7 @@ export const projectsData = [
     title: "Intro section with dropdown navigation",
     demo: "https://rimakerirem.github.io/Intro-Section-With-Dropdown-Navigation/",
     code: "https://github.com/RimaKerirem/Intro-Section-With-Dropdown-Navigation",
+    languages: "HTML / CSS / JS",
   },
   {
     id: "p-2",
@@ -26,6 +37,7 @@ export const projectsData = [
     title: "Todo App",
     demo: "https://app-todo-2.netlify.app/",
     code: "https://github.com/RimaKerirem/Todo-App",
+    languages: "HTML / CSS / JS",
   },
   {
     id: "p-3",
@@ -33,6 +45,7 @@ export const projectsData = [
     title: "Login form",
     demo: "https://rimakerirem.github.io/Login-Form/",
     code: "https://github.com/RimaKerirem/Login-Form",
+    languages: "HTML / CSS / JS",
   },
   {
     id: "p-1",
@@ -40,5 +53,6 @@ export const projectsData = [
     title: "Typing Test Speed",
     demo: "https://rimakerirem.github.io/Typing-Test-Speed/",
     code: "https://github.com/RimaKerirem/Typing-Test-Speed",
+    languages: "HTML / CSS / JS",
   },
 ];

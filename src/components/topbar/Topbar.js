@@ -1,5 +1,5 @@
 import "./topbar.css";
-import { FaPhone, FaAt } from "react-icons/fa";
+import { FaMobileAlt, FaAt } from "react-icons/fa";
 
 function Topbar({ openMenu, setOpenMenu }) {
   return (
@@ -14,7 +14,7 @@ function Topbar({ openMenu, setOpenMenu }) {
         </div>
         <div className="right">
           <div className="item">
-            <FaPhone className="icon" />
+            <FaMobileAlt className="icon" />
             <span>0554 231 952</span>
           </div>
           <div className="item">
