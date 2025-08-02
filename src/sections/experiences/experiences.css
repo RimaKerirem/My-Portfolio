@@ -53,6 +53,10 @@
         font-size: 12px;
     }
 
+    .exp-container ul {
+        padding-left: 20px;
+    }
+
     .exp-container ul li {
         font-size: 14px;
         padding-left: 20px;
