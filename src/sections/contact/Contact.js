@@ -36,9 +36,15 @@ function Contact({ props }, ref) {
 
   return (
     <section ref={ref} className="contact" id="contact">
+<<<<<<< HEAD
       <MainTitle title="Me Contacter" />
       <form ref={formRef} onSubmit={handleSubmit}>
         <label htmlFor="full-name">Nom Complet</label>
+=======
+      <MainTitle title="Contact Me" />
+      <form ref={formRef} onSubmit={handleSubmit}>
+        <label htmlFor="full-name">Full Name</label>
+>>>>>>> c0d217a3e07ab69dcd3b5f227fe7f7003aaf32d2
         <input
           ref={nameRef}
           type="text"
@@ -67,13 +73,21 @@ function Contact({ props }, ref) {
           required
         ></textarea>
 
+<<<<<<< HEAD
         <button type="submit">Envoyer</button>
+=======
+        <button type="submit">Send</button>
+>>>>>>> c0d217a3e07ab69dcd3b5f227fe7f7003aaf32d2
       </form>
       <div className={done ? "done active" : "done"}>
         <span className="close" onClick={() => setDone(false)}>
           X
         </span>
+<<<<<<< HEAD
         <p>Votre message a été envoyé.</p>
+=======
+        <p>Your message has been sent.</p>
+>>>>>>> c0d217a3e07ab69dcd3b5f227fe7f7003aaf32d2
       </div>
     </section>
   );

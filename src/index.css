@@ -3,8 +3,13 @@
 :root {
   --main-color: #a43f49;
   --secondary-color: #83323a;
+<<<<<<< HEAD
   --padding-top: 80px;
   --padding-bottom: 80px;
+=======
+  --padding-top: 100px;
+  --padding-bottom: 100px;
+>>>>>>> c0d217a3e07ab69dcd3b5f227fe7f7003aaf32d2
 }
 
 * {
