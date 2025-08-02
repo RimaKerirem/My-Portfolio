@@ -16,11 +16,7 @@ function Card({ project }) {
             rel="noopener noreferrer"
             className="demo"
           >
-<<<<<<< HEAD
             Voir
-=======
-            Demo
->>>>>>> c0d217a3e07ab69dcd3b5f227fe7f7003aaf32d2
           </a>
           <a
             href={project.code}

@@ -6,7 +6,6 @@ import { forwardRef } from "react";
 function About({ props }, ref) {
   return (
     <section ref={ref} className="about" id="about">
-<<<<<<< HEAD
       <MainTitle title="Profil" />
       <p className="text">
         Titulaire d’un Master en
@@ -31,26 +30,6 @@ function About({ props }, ref) {
       </div>
       <a href="/CV.pdf" className="resume" download="CV-KERIREM Rima">
         Télécharger CV
-=======
-      <MainTitle title="About Me" />
-      <p className="text">
-        I graduated with a master's degree in Mathematics and Business
-        Intelligence. Interested in web development.
-      </p>
-      <div className="diplomes">
-        <h2>Diplomas</h2>
-        <div className="item">
-          <FaGraduationCap className="cap" />
-          <p>Master's in Mathematics and Business Intelligence</p>
-        </div>
-        <div className="item">
-          <FaGraduationCap className="cap" />
-          <p>Academic Computer License</p>
-        </div>
-      </div>
-      <a href="/resume.pdf" className="resume" download="Resume">
-        Download Resume
->>>>>>> c0d217a3e07ab69dcd3b5f227fe7f7003aaf32d2
       </a>
     </section>
   );

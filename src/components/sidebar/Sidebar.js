@@ -4,18 +4,11 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 function Sidebar({ openMenu, setOpenMenu, selected }) {
   const list = [
-<<<<<<< HEAD
     { id: "#about", title: "Profil" },
     { id: "#exp", title: "Mes Expériences" },
     { id: "#skills", title: "Mes Compétences" },
     { id: "#my-projects", title: "Mes Projets" },
     { id: "#contact", title: "Me Contacter" },
-=======
-    { id: "#about", title: "About Me" },
-    { id: "#skills", title: "My Skills" },
-    { id: "#my-projects", title: "My Projects" },
-    { id: "#contact", title: "Contact Me" },
->>>>>>> c0d217a3e07ab69dcd3b5f227fe7f7003aaf32d2
   ];
 
   return (
