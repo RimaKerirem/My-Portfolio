@@ -1,0 +1,68 @@
+.about {
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+  color: white;
+}
+
+.about .text {
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 70%;
+  margin: 50px auto;
+}
+
+.about .diplomes {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.about .diplomes h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about .diplomes .item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.about .diplomes .item p {
+  flex: 1;
+}
+
+.about .diplomes .item .cap {
+  margin-right: 10px;
+}
+
+.about .resume {
+  display: block;
+  background-color: var(--secondary-color);
+  color: white;
+  width: fit-content;
+  padding: 15px;
+  margin: 30px 20px 0 auto;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+@media (max-width: 575px) {
+  .about .text {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .about .diplomes .item p,
+  .about .diplomes .item .cap {
+    font-weight: 300;
+    font-size: 13px;
+  }
+
+  .about .resume {
+    font-size: 14px;
+  }
+}

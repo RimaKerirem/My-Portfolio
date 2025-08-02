@@ -1,0 +1,51 @@
+.sidebar-list .link {
+  color: white;
+  display: block;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 15px 50px;
+  position: relative;
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
+  cursor: pointer;
+}
+
+.sidebar-list .link:hover {
+  font-weight: 900;
+  padding-left: 60px;
+}
+
+.sidebar-list .link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--secondary-color);
+  top: 0;
+  left: -100%;
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
+  z-index: -1;
+}
+
+.sidebar-list .link:hover::before {
+  left: 0;
+}
+
+.sidebar-list .link.active {
+  background-color: var(--secondary-color);
+  font-weight: 900;
+  padding-left: 60px;
+}
+
+@media (max-width: 575px) {
+  .sidebar-list .link {
+    font-size: 16px;
+  }
+}

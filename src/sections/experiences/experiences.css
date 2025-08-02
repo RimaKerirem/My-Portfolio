@@ -1,0 +1,60 @@
+.experiences {
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+  color: white;
+  background-color: #1a202c;
+}
+
+.experiences .exp-container {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.experiences .exp-container h3 {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  color: #cbd5e0;
+}
+
+.experiences .exp-container .building {
+  margin-right: 8px;
+  color: var(--secondary-color);
+}
+
+.experiences .exp-container ul {
+  padding-left: 24px;
+}
+
+.experiences .exp-container ul li {
+  position: relative;
+  padding-bottom: 8px;
+  padding-left: 24px;
+}
+
+.experiences .exp-container ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+@media (max-width: 767px) {
+    .exp-container h1 {
+        font-size: 16px;
+    }
+
+    .exp-container h3 {
+        font-size: 12px;
+    }
+
+    .exp-container ul li {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+}
